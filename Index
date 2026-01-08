@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viden Renovation and Installation</title>
+  <meta name="description" content="Luxury renovation and installation services. Clean lines. Premium finish. Trusted workmanship." />
+  <style>
+    :root {
+      --black: #0f0f0f;
+      --white: #ffffff;
+      --gold: #c9a44c;
+      --gray: #f4f4f4;
+    }
+    body {
+      margin: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      background: var(--white);
+      color: var(--black);
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+      background-size: cover;
+      background-position: center;
+      color: var(--white);
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    header p {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 1.15rem;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 38px;
+      background: var(--gold);
+      color: var(--black);
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.1rem;
+      margin-bottom: 45px;
+      letter-spacing: 1px;
+    }
+    .services, .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: var(--white);
+      padding: 35px;
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      border-top: 4px solid var(--gold);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+    .why {
+      background: var(--gray);
+      border-radius: 24px;
+      padding: 45px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .why ul {
+      list-style: none;
+      padding: 0;
+    }
+    .why li {
+      padding: 14px 0;
+      font-size: 1.05rem;
+    }
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .quote {
+      background: var(--black);
+      color: var(--white);
+      padding: 35px;
+      border-radius: 18px;
+      position: relative;
+    }
+    .quote span {
+      color: var(--gold);
+      font-weight: 600;
+    }
+    .cta-section {
+      background: var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 90px 20px;
+    }
+    footer {
+      background: var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .floating-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: var(--gold);
+      color: var(--black);
+      padding: 14px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Viden Renovation & Installation</h1>
+  <p>High-end renovation and installation services for homeowners who value quality, precision, and long-lasting results.</p>
+  <a href="https://www.facebook.com/Enteng.035" class="cta-btn">Request a Free Quote</a>
+</header>
+
+<section>
+  <h2>Our Core Services</h2>
+  <div class="services">
+    <div class="card"><h3>Luxury Home Renovation</h3><p>Elegant interior and exterior upgrades that elevate your space.</p></div>
+    <div class="card"><h3>Precision Installations</h3><p>Ceilings, cabinets, tiles, fixtures, and finishing works.</p></div>
+    <div class="card"><h3>Repair & Restoration</h3><p>Professional repair solutions built to last.</p></div>
+    <div class="card"><h3>Custom Projects</h3><p>Tailored builds aligned with your vision and budget.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Before & After Transformations</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Before After 1">
+    <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea" alt="Before After 2">
+    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d" alt="Before After 3">
+  </div>
+</section>
+
+<section>
+  <h2>Why Clients Choose Viden</h2>
+  <div class="why">
+    <ul>
+      <li>✔ Skilled professionals with attention to detail</li>
+      <li>✔ Transparent pricing and clear timelines</li>
+      <li>✔ Premium materials and clean execution</li>
+      <li>✔ Proven before-and-after results</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>What Our Clients Say</h2>
+  <div class="testimonials">
+    <div class="quote">“Maayos kausap at pulido ang gawa. Sulit ang bayad.”<br><br><span>— Homeowner, Cavite</span></div>
+    <div class="quote">“Professional from start to finish. Highly recommended.”<br><br><span>— Residential Client</span></div>
+    <div class="quote">“Malinis ang trabaho at on-time matapos.”<br><br><span>— Project Owner</span></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <h2>Let’s Build Something Exceptional</h2>
+  <p>Tell us about your project and we’ll help bring it to life.</p>
+  <a href="https://www.facebook.com/Enteng.035" class="cta-btn">Start Your Project</a>
+</section>
+
+<footer>
+  <p>© 2026 Viden Renovation and Installation</p>
+  <p>Connect with us on <a href="https://www.facebook.com/Enteng.035">Facebook</a></p>
+</footer>
+
+<a href="https://wa.me/63XXXXXXXXXX" class="floating-btn">WhatsApp Us</a>
+
+</body>
+</html>
